@@ -1,4 +1,5 @@
 #Crie um programa em Python que imprima uma sequência de números em forma de pirâmide. O programa deve solicitar ao usuário um número inteiro positivo e, em seguida, imprimir os números de 1 até o número informado, em linhas crescentes e decrescentes, formando uma pirâmide.
+
 num = int(input("Digite um número inteiro positivo: "))
 count = 1     # count começa no 1
 seq = str(count) # seq faz o count virar string
