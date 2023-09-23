@@ -7,7 +7,7 @@ phrase = input("Informe algo: ").lower()
 textOne = phrase[0:] 
 textTwo = textOne[::-1] #phrase invertido
 
-if textOne == textTwo: #se phrase é igual a phrase invertido
+if textOne == textTwo:
     print("palíndromo")
 else:
     print("Não é palíndromo")
