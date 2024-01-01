@@ -18,11 +18,9 @@ for word in newList:
         count += 1
     zipList.append(dictionary[word])
 
-
 txtZip += '\n'
 txtZip += '$ '
 txtZip += " ".join(zipList)
-
 
 with open("bigTextZip.txt", "w") as arq:
     arq.write(txtZip)

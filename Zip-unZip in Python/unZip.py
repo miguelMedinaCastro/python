@@ -18,7 +18,6 @@ def unZip():
     for i in range(cont + 1, len(newList)):
         numberList.append(newList[i])
 
-
     for j in range(0,len(dicList), 2):
         key = dicList[j]
         key = key[:-1]  #eliminação dos ":"
@@ -33,7 +32,10 @@ def unZip():
             if i == value:
                 new.append(key)
 
+    print(dicList)
+
     newUnZip = " ".join(new)
 
     with open("unZip.txt", "w") as arq:
         arq.write(newUnZip)
+
