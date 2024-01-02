@@ -32,8 +32,6 @@ def unZip():
             if i == value:
                 new.append(key)
 
-    print(dicList)
-
     newUnZip = " ".join(new)
 
     with open("unZip.txt", "w") as arq:
