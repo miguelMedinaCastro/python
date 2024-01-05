@@ -1,4 +1,4 @@
-import random #módulo importante para decisão randômica disponível no próprio python
+import random 
 
 lower = "abcdefghijklmnopqrstuvwxyz"
 upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" 
@@ -9,4 +9,4 @@ all = lower + upper + special + num
 length = 20 
 password = "".join(random.sample(all, length)) 
 
-print(password) #print password
+print(password)
