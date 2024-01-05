@@ -1,13 +1,3 @@
-#Crie um programa que recebe uma string com letras maiusculas, espaços e números como entrada e retorna uma nova string em que cada caractere foi convertido para o código Morse.
-
-#Código Morse:
-
-#Exemplo:
-
-#Informe a mensagem: HELLO 123
-
-#Saída esperada: ".... . .-.. .-.. ---   .---- ..--- ...--"
-
 string = input("Informe a mensagem: ").strip().upper()
 
 newString = [] #lista vazia
