@@ -3,5 +3,5 @@
 num = int(input("Informe um número inteiro positivo: "))
 while num >= 1:
     print("Resultado da divisão:", num)
-    num = num / 2
+    num /= 2
 print("Chegou a zero!")
